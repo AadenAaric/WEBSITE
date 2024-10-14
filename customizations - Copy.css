@@ -1,0 +1,298 @@
+.info-2 i{
+    margin-left: 1vh;
+}
+
+.info-2{
+    margin-left: 3vh;
+}
+
+.logo-main{
+    background-color: #1a3556;
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.logo-main::after {
+    content: '';
+    height: 100%;
+    width: 8px; /* Thickness of the red line */
+    background-color: red; /* Red color for the line */
+    position: absolute;
+    right: 0;
+    top: 0;
+  }
+
+.logo img{
+    width: 150px;
+}
+
+.image-container {
+    width: 140px;
+    height:100px; /* Set the width */
+     /* Set the height */
+    background-image: url('../img/xt-logo.png');
+    background-size: contain; /* Make sure the image covers the entire container */
+    background-position: center; /* Center the image */
+    background-repeat: no-repeat;
+}   
+
+.info{
+    display: flex;
+    padding-left: 1vh ;
+
+    
+}
+
+.arr-man{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    width: 20vw;
+}
+
+
+.info i {
+    margin-right: 1vh;
+    margin-left: 1vh;
+}
+
+.info-1 {
+    margin-left: 7vh;
+
+}
+
+.info-1 i{
+    margin-left: 3vh;
+    color: black;
+}
+
+.arrow{
+    width: 400px;
+
+    
+}
+
+.feature_col1 {
+   position: relative;
+}
+
+.margin-left{
+    margin-left: 1vw;
+}
+
+.margin-right{
+    margin-right: 1vw;
+}
+.margin-top{
+    margin-top: 1vh;
+}
+
+.feature_img_2{
+    position: absolute;
+    top:40vh;
+    right:10vw;
+    
+}
+
+.feature_img_2 img{
+    border: 10px solid rgb(255, 255, 255);  /* Set the border width, style, and color */
+    
+    
+}
+
+.feature_col1 h6::after , .section-title h6::after, .choose-left h6::after {
+    content: "";
+    height: 2px;
+    width: 70px; /* Thickness of the red line */
+    background-color: red; /* Red color for the line */
+    position: absolute;
+    top: 6px;
+    margin-left: 1vh;
+    
+    
+
+}
+.service_img{
+    position: relative;
+}
+
+.service_img i{
+    position: absolute;
+    top: 1vh;
+    left: 0.2vw;
+    color: red;
+    font-size: 5rem;
+
+}
+
+.Feautes, .why-choose{
+   position: relative;
+
+}
+
+.bg_ft{
+    position: absolute;
+
+    left: 0;
+    height: 100%;   
+    opacity: 0.2;
+   
+   
+}
+
+
+.why_ft{
+    position: absolute;
+
+    right: 0;
+    height: 100%;   
+    opacity: 0.2;
+   
+   
+}
+
+.why-choose_cst{
+    display: flex;
+    flex-direction: row ;
+    align-items: center;
+    
+}
+
+.choose-right_cst{
+    width: 20%;
+    height: 100%;
+    
+}
+
+.choose-left_cst{
+    width: 80%;
+    height: 100%;
+}
+
+.services{
+    position: relative;
+    background-color: #1a3556;
+}
+
+.service_bg{
+    background-image: url("/img/service-1.png");
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-repeat: no-repeat;
+    background-size:cover;
+    
+}
+
+.service_2-box{
+    /* background-color: gray; */
+    height: 18vh;
+    padding:1vh;
+}
+
+.box{
+    height: 100%;
+    width: 100%;
+    background-color: #2c2e33;
+    display: flex;
+    align-items: center;
+    justify-content: center ;
+}
+
+.box i{
+    color: red;
+    font-size: 5rem;
+}
+
+
+.fun-facts .heading{
+    text-align: center;
+    margin-bottom: 10vh;
+}
+
+.row-1{
+    background-image: url("/img/3.jpg");
+    margin-left: 1vh;
+}
+
+.column-2{
+    background-color: rgb(255, 255, 255);
+    height: 60vh;
+    padding: 1vh;
+    padding-left: 2vh;
+}
+
+.gmap_iframe {
+    width: 100%;
+    height: 100%;
+}
+
+
+.about-header{
+    width: 100%;
+    height: 30%;
+    opacity: 1;
+    background-image: url("/img/page-title.jpg");
+    text-align:start;
+    align-content:center;
+    
+
+}
+
+.about-header h1 {
+    color: aliceblue;
+    margin-left: 20vw;
+    font-weight: 8  00;
+}
+
+.about-header h6 {
+    margin-left: 20vw;
+}
+
+.abt-info{
+    margin-top: 5vh;
+    margin-bottom: 5vh;
+}
+
+.bg-blue{
+    background-color: #484a4c50;
+}
+
+
+@media only screen and (max-width: 767px) {
+    .logo-main{
+        background-color: white;
+        display: block;
+    }
+
+    .image-container {
+        width: 100px;
+        height:50px; /* Set the width */
+         /* Set the height */
+        background-image: url('../img/xt-logo-bk.png');
+        background-size: contain; /* Make sure the image covers the entire container */
+        background-position: center; /* Center the image */
+        background-repeat: no-repeat;
+    }
+
+    .service_img i{
+        top: 10vh;
+        left: 0.5vw;
+       
+    
+    }
+    .logo-main::after {
+        display: none;
+      }
+
+
+      .fun-facts .col-12 {
+        margin-bottom: 10vh;
+      }
+    
+}
